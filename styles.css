@@ -7,12 +7,27 @@ body{
 a{
   color: #8A3033;
 }
+
 a:hover {
   color: #090C02;
 }
 
+a:active{
+
+}
+
+.portLink{
+  color: #8A3033;
+}
+.portLink:hover{
+  color: #090C02;
+}
+.portLink:active{
+  color:#ffffff;
+}
+
 #about{
-  width:38%;
+  width:30%;
   padding-right:4%;
   float: left;
   text-align: center;
@@ -21,12 +36,17 @@ a:hover {
 }
 
 #headshot{
-  width: 70%;
+  width: 30%;
   border-radius: 100%;
 }
 
+#name{
+  font-size: 22pt;
+}
+
 #bio{
-  font-size: 18pt;
+  font-size: 14pt;
+  margin: auto;
 }
 
 #space{
@@ -62,7 +82,7 @@ a:hover {
 }
 
 #body{
-  width: 50%;
+  width: 57%;
   padding-left: 4%;
   float: left;
 }
